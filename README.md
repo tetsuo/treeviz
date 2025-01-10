@@ -37,12 +37,10 @@ Edit me to generate
     to indicate
       file
       and
-      folder
-      nesting.
-    - You can even
-      - use
-        - markdown
-        - bullets!
+        folder
+        nesting
+    do cool
+        stuff
 ```
 
 Running `./treeviz < input.txt` will output:
@@ -58,11 +56,9 @@ Running `./treeviz < input.txt` will output:
    └─ Use indentation
       ├─ to indicate
       │  ├─ file
-      │  ├─ and
-      │  ├─ folder
-      │  └─ nesting.
-      └─ - You can even
-         └─ - use
-            ├─ - markdown
-            └─ - bullets!
+      │  └─ and
+      │     ├─ folder
+      │     └─ nesting
+      └─ do cool
+         └─ stuff
 ```
